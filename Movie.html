@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Movie Now</title>
+    <link rel="stylesheet" href="Movie.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Search Movie</h1>
+      <div class="row" style="justify-content: center; padding: 24px">
+        <input
+          type="search"
+          id="search"
+          autofocus
+          autocomplete="off"
+          placeholder="Movie Name..."
+        />
+      </div>
+      <div class="row" style="justify-content: center">
+        <input
+          type="number"
+          id="year-filter"
+          autofocus
+          autocomplete="off"
+          placeholder="Released Year"
+        />
+      </div>
+      <div class="row" id="movie-box"></div>
+    </div>
+    <script src="Movie.js"></script>
+  </body>
+</html>
